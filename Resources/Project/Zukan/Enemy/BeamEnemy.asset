@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4952c86e611b424fa775c6d8a3b3941, type: 3}
+  m_Name: BeamEnemy
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 5099592876365241398, guid: 4d83c6f0ae13e5646aac43757c618bfa, type: 3}
+  Icon: {fileID: 21300000, guid: 6dbf8950f52c37b4cbf7bb881e96a9dd, type: 3}
+  Description: "1983\u5E74\u3001\u7279\u5B9A\u306E\u30A6\u30A4\u30EB\u30B9\u306B\u30DE\u30FC\u30AD\u30F3\u30B0\u3059\u308B\u6280\u8853\u3068\u3001\u30DE\u30FC\u30AB\u30FC\u3092\u6301\u3063\u305F\u30A6\u30A4\u30EB\u30B9\u306B\u96C6\u4E2D\u653B\u6483\u3059\u308B\u3053\u3068\u304C\u53EF\u80FD\u306A\u65B0\u305F\u306A\u85AC\u5264\u304C\u958B\u767A\u3055\u308C\u305F\u3002\u3053\u308C\u304C\u4EBA\u985E\u5074\u306E\u5207\u308A\u672D\u3068\u306A\u3063\u305F\u3002\u3053\u306E\u85AC\u5264\u306B\u3088\u308A\u3001\u5BFE\u30A6\u30A4\u30EB\u30B9\u5BFE\u7B56\u6A5F\u95A2\u3001\u30A6\u30A4\u30EB\u30B9\u30D0\u30B9\u30BF\u30FC\u305F\u3061\u306F\u3001\u30A6\u30A4\u30EB\u30B9\u306B\u5BFE\u3059\u308B\u7A4D\u6975\u7684\u653B\u52E2\u306B\u51FA\u308B\u3053\u3068\u304C\u53EF\u80FD\u306B\u306A\u3063\u305F\u3002"
+  Name: "\u30E9\u30A4\u30B2\u30AD-O198"
+  Stage: 3

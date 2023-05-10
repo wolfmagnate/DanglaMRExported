@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beef9bfe1440c2b4290027889c8e6a7b, type: 3}
+  m_Name: Connection123AtkDis1
+  m_EditorClassIdentifier: 
+  CardName: "\u30AF\u30EB\u30EB\u30AB\u30F3\u30FB\u30A2\u30B5\u30EB\u30C8-F\r"
+  Race: 0200000003000000
+  CardAttribute: 0
+  Icon: {fileID: 21300000, guid: dc8110c8477ad13458a75480db462d8f, type: 3}
+  Rarity: {fileID: 11400000, guid: d78559eac19fa6141954d0399785a965, type: 2}
+  PowerUps:
+  - {fileID: 11400000, guid: 78dab3608b562d8489ef27abd33a530d, type: 2}
+  - {fileID: 11400000, guid: 45572c2a975857f4ca09b4a003d76d64, type: 2}
+  EnterLeftPowerUp: {fileID: 11400000, guid: 0b588edb073ce1f439afb07de1f6b40a, type: 2}
+  EnterRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterUpPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterDownPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterUpLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterUpRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  EnterDownLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  EnterDownRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  LeaveLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveUpPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveDownPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveUpLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveUpRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  LeaveDownLeftPowerUp: {fileID: 11400000, guid: b12ba19dca2472e49a3ecaad19826246,
+    type: 2}
+  LeaveDownRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  PowerUpRace: 
+  RaceNumber: 
+  RacePowerUp: []
+  PowerUpPreviousCardName:
+  - "\u30AF\u30AF\u30EB\u30AB\u30F3\u30FB\u30A2\u30AF\u30B9\u30EB-M "
+  - "\u30AF\u30AF\u30EB\u30AB\u30F3\u30FB\u30D3\u30FC\u30C8-B "
+  PreviousCardNamePowerUp:
+  - {fileID: 11400000, guid: 7eb34762a73c3574681d9f76fedb3e26, type: 2}
+  - {fileID: 11400000, guid: a561b8fa7cf93924981d2b6ee622e608, type: 2}
+  PowerUpNextCardName:
+  - "\u30AF\u30AF\u30EB\u30AB\u30F3\u30FB\u30A2\u30AF\u30B9\u30EB-M "
+  - "\u30AF\u30AF\u30EB\u30AB\u30F3\u30FB\u30D3\u30FC\u30C8-B "
+  NextCardNamePowerUp:
+  - {fileID: 11400000, guid: 455965c2f4e1a174fbaeb46e95c2dcdf, type: 2}
+  - {fileID: 11400000, guid: ec8eee66ea2e87d4aa3df77d6688be5f, type: 2}
+  PowerUpOrder: 00000000
+  OrderPowerUp:
+  - {fileID: 11400000, guid: 536fdc4336eb6fb49bc669961ebb949d, type: 2}
+  PowerUpPosition: []
+  PositionPowerUp: []
+  PowerUpCardAttribute: 06000000
+  CardAttributeNumber: 03000000
+  CardAttributePowerUp:
+  - {fileID: 11400000, guid: 7ebe35c695c966644aa74c5e0c083cc5, type: 2}

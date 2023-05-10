@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e0b062cb6546b4ea7b6e2b3ca1296d, type: 3}
+  m_Name: CardPack2
+  m_EditorClassIdentifier: 
+  PackName: C
+  MagicTypeContents:
+  - {fileID: 11400000, guid: 9b302b19376eb4c4e94bea5176c2c423, type: 2}
+  - {fileID: 11400000, guid: ec1e82f2182e3234993aebdb84e74a8e, type: 2}
+  - {fileID: 11400000, guid: 62fba0ab0c5067a469d952f64680908a, type: 2}
+  - {fileID: 11400000, guid: b6528e9ec6ac6a94fae8efdac376ad89, type: 2}
+  - {fileID: 11400000, guid: 58856c0dd988b524792c943f9fab61e7, type: 2}
+  - {fileID: 11400000, guid: 84d1953b105dd7c4091f2215e7a6c94e, type: 2}
+  - {fileID: 11400000, guid: 1acc3869785adc84c8a17a925db8739e, type: 2}
+  - {fileID: 11400000, guid: 595ebe95c601dee4ea3418d3465f98a6, type: 2}
+  - {fileID: 11400000, guid: b7992a1432855db498046060b082fbe2, type: 2}
+  - {fileID: 11400000, guid: 13851ae850fb26d4c8275a00a4d96318, type: 2}
+  MagicTypePossibilities:
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  PowerUpContents:
+  - {fileID: 11400000, guid: e85469b6de34c9f42abc252d32b5f3b9, type: 2}
+  - {fileID: 11400000, guid: 7372278dc0b3b874aa4d250cf5537ddb, type: 2}
+  - {fileID: 11400000, guid: 3a063b6a9a4fd364f8b0a6bf84c95d89, type: 2}
+  - {fileID: 11400000, guid: 08a1d871afe399d478445a14d12f7159, type: 2}
+  - {fileID: 11400000, guid: 4de0737dad230144d82a5dfb7764ddf7, type: 2}
+  - {fileID: 11400000, guid: e09403b15d9fb5a4a8e4bdc984c6eff1, type: 2}
+  - {fileID: 11400000, guid: 2f750fbda3109334eb7fb008cf3b6bf1, type: 2}
+  - {fileID: 11400000, guid: e1128490cc12321419aa2efb27683f6d, type: 2}
+  - {fileID: 11400000, guid: f9c73c19ded21f4468d812319da479f4, type: 2}
+  - {fileID: 11400000, guid: 833d044eded4c0f40a4cc86efdf5a6e3, type: 2}
+  - {fileID: 11400000, guid: 310045295d054c9438e8e270c510d9d7, type: 2}
+  - {fileID: 11400000, guid: 83d1024ebefb7cc42983d2b0777c831b, type: 2}
+  - {fileID: 11400000, guid: 368c5b8b1e5caac45bd3f04d9517287e, type: 2}
+  - {fileID: 11400000, guid: 50f6df95daf2d1240a15c00132567ee8, type: 2}
+  - {fileID: 11400000, guid: 684c8a2e88a478c4aabbae06c2ebd3ec, type: 2}
+  - {fileID: 11400000, guid: e3054875e2588d14ab4a360beeaf0084, type: 2}
+  - {fileID: 11400000, guid: 7ac7d862c4c4e074e8765a4f2c907abd, type: 2}
+  - {fileID: 11400000, guid: 90a46a41665988f44b79b5de01b5bed0, type: 2}
+  - {fileID: 11400000, guid: 0c3ed588acb88684eb942f5abdb4a9f8, type: 2}
+  - {fileID: 11400000, guid: e57c7251614ae60489f06cce27241c43, type: 2}
+  - {fileID: 11400000, guid: e8a4e74f26f54144fa5bd62a4ce899e8, type: 2}
+  - {fileID: 11400000, guid: 3a9d74b90d7674742a00f92b8b3cab35, type: 2}
+  - {fileID: 11400000, guid: 2b3db9d4d30b1f047a5f15b635105ef0, type: 2}
+  - {fileID: 11400000, guid: e5182ec39e5510d4ca110db233403537, type: 2}
+  - {fileID: 11400000, guid: 30ae9cb41b5380d469ee034f467b78bd, type: 2}
+  - {fileID: 11400000, guid: 45bf2ceb92f3f184da3eeb4080a6b799, type: 2}
+  - {fileID: 11400000, guid: 890b7766e1f2d8a43a8a28d7a2f88f44, type: 2}
+  - {fileID: 11400000, guid: c835321493dc9b249ac5618535a150c7, type: 2}
+  - {fileID: 11400000, guid: 3c0335ff4743a1440a84e859befafaaa, type: 2}
+  - {fileID: 11400000, guid: bee6a74c7f57dcd43bee028678abd61c, type: 2}
+  - {fileID: 11400000, guid: 75f6f9a52aded8542be3c5cb5857ff1b, type: 2}
+  - {fileID: 11400000, guid: a7a57ff240c8d614ab406d7237113255, type: 2}
+  - {fileID: 11400000, guid: e0fbb7fa477cb6c4f918ac26f5440da2, type: 2}
+  - {fileID: 11400000, guid: aa4dfdd8e7673e9488a0a2623fdd1b75, type: 2}
+  - {fileID: 11400000, guid: d8032a44c17d2974f86b5bf4ed9cf1d0, type: 2}
+  - {fileID: 11400000, guid: 52f7d84f37ea98c4fbd59ebf7d4ecefe, type: 2}
+  - {fileID: 11400000, guid: 4842d548c9c488a4e94ad85453266d35, type: 2}
+  - {fileID: 11400000, guid: a0230638a624d0448a446c4c00ec8326, type: 2}
+  - {fileID: 11400000, guid: a10f4adee8662d541b87cb0a1cd97377, type: 2}
+  - {fileID: 11400000, guid: 354eabe5317940a4e81ea2876340886b, type: 2}
+  - {fileID: 11400000, guid: 860625dd9eb06ef4c84215600a11a86b, type: 2}
+  - {fileID: 11400000, guid: 055cd67f452969a46a30119e47199196, type: 2}
+  - {fileID: 11400000, guid: 07c36c6a13200b04d985fcb69b0bfd60, type: 2}
+  - {fileID: 11400000, guid: 0cb9cdbb83318cf4e949126c367041b9, type: 2}
+  PowerUpPossibilities:
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 40
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  - 20
+  Prices: 0a000000140000002800000050000000a000000058020000e803000040060000b80b00007017000010270000803e00003075000050c3000060ea0000

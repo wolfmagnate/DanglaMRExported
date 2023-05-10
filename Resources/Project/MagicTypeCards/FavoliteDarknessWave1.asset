@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd25aaf9ef9cbc489ac00f1b199d835, type: 3}
+  m_Name: FavoliteDarknessWave1
+  m_EditorClassIdentifier: 
+  CardName: "\u30E1\u30EB\u30FC\u30C7\u30B9\u30B7\u30ED\u30C3\u30D7"
+  Race: 00000000
+  Icon: {fileID: 21300000, guid: c58017609131dba45a5e37f8069d4de6, type: 3}
+  Attack: 15
+  Speed: 4
+  ChargeTime: 0
+  Distance: 4
+  Range: 0.5
+  MP: 5
+  CanHitTimes: 100
+  Rush: 1
+  RushInterval: 0
+  Attribute: 9
+  MoveType: 2
+  BadStatuses: 
+  BadStatusPossibility: []
+  CardAttribute: 9
+  Rarity: {fileID: 11400000, guid: dbbaced9a718aa84fae36da34e315050, type: 2}
+  EnterLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterUpPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterDownPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterUpLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  EnterUpRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  EnterDownLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  EnterDownRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  LeaveLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveUpPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveDownPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveUpLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b, type: 2}
+  LeaveUpRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  LeaveDownLeftPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  LeaveDownRightPowerUp: {fileID: 11400000, guid: 62e51e7f3cf92bf469ac4e74a3f8477b,
+    type: 2}
+  PowerUpRace: 
+  RaceNumber: 
+  RacePowerUp: []
+  PowerUpPreviousCardName: []
+  PreviousCardNamePowerUp: []
+  PowerUpNextCardName: []
+  NextCardNamePowerUp: []
+  PowerUpOrder: 03000000
+  OrderPowerUp:
+  - {fileID: 11400000, guid: 8a4ec0ce610cddb4cb81b22dcf0f6f5d, type: 2}
+  PowerUpPosition: []
+  PositionPowerUp: []
+  PowerUpCardAttribute: 08000000
+  CardAttributeNumber: 04000000
+  CardAttributePowerUp:
+  - {fileID: 11400000, guid: 802ab2afa690fbc4b9391228e0316bf5, type: 2}

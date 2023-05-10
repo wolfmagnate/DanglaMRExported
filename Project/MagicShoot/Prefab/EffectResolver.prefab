@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7318534625551279871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7318534625551279864}
+  - component: {fileID: 7318534625551279865}
+  m_Layer: 0
+  m_Name: EffectResolver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7318534625551279864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7318534625551279871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7318534625551279865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7318534625551279871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4236f687d85dd5a4ab32d3fb8295b637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaterStraight: {fileID: 100012, guid: 66c82d9619f8fa84082050790b8584b9, type: 3}
+  WaterSphere: {fileID: 100004, guid: bc278c6224d1dc04997673c4c4cc8d82, type: 3}
+  WaterSpread: {fileID: 100008, guid: bd44023c0e2ceae4e9b4ac2412bd4d9f, type: 3}
+  WaterRay: {fileID: 168570, guid: cc9af0e16354a3c4aaa2860db34ca4a0, type: 3}
+  WaterWave: {fileID: 7944133684924989999, guid: a1586f217f2e746479b256e3303b512e,
+    type: 3}
+  WaterGatling: {fileID: 132702, guid: 44b39dcf5d036464b9791669232296aa, type: 3}
+  WaterRayEffect: {fileID: 6138884496408582003, guid: a0e120f20f27ede43a9629733f2914ab,
+    type: 3}
+  WaterGatlingEffect: {fileID: 124858, guid: 08024a0f969f6a04ebcd83afbfde2200, type: 3}
+  WaterStraightHit: {fileID: 100010, guid: 3622df40ebe443f48b3c761801bbc51c, type: 3}
+  WaterSphereHit: {fileID: 6138884496408582003, guid: a0e120f20f27ede43a9629733f2914ab,
+    type: 3}
+  WaterSpreadHit: {fileID: 100010, guid: 3622df40ebe443f48b3c761801bbc51c, type: 3}
+  WaterRayHit: {fileID: 6138884496408582003, guid: a0e120f20f27ede43a9629733f2914ab,
+    type: 3}
+  WaterWaveHit: {fileID: 187964, guid: 4a1e0f7cfc5fec345af6291745c4ca2e, type: 3}
+  WaterGatlingHit: {fileID: 172476, guid: dd2bfeaf8bc82f342be9069747868860, type: 3}
+  LifeStraight: {fileID: 100004, guid: 0fe6d5add049f054da06bbb6566b1be3, type: 3}
+  LifeSphere: {fileID: 100006, guid: 0eed9fcd74c2ba2449a54bb890668e8c, type: 3}
+  LifeSpread: {fileID: 100008, guid: e5f52a32e2c2f9e4891e04bcfa5e94f2, type: 3}
+  LifeRay: {fileID: 168570, guid: 13d778ebbfff82149bdc5ed15fbda9c9, type: 3}
+  LifeWave: {fileID: 2701549264781314404, guid: 1017b79750dc54849b5f16e4cd45aed3,
+    type: 3}
+  LifeGatling: {fileID: 146808, guid: 3b44f00d62229884a99c8bd5c5a1a247, type: 3}
+  LifeRayEffect: {fileID: 3105154768699876682, guid: d729208f73117e640a61de64a734a53a,
+    type: 3}
+  LifeGatlingEffect: {fileID: 137892, guid: 01455581ef3749d4b98d8ddabe5d3005, type: 3}
+  LifeStraightHit: {fileID: 100014, guid: dcebf14fc769fbc40b76eb71fa8708ca, type: 3}
+  LifeSphereHit: {fileID: 3105154768699876682, guid: d729208f73117e640a61de64a734a53a,
+    type: 3}
+  LifeSpreadHit: {fileID: 100014, guid: dcebf14fc769fbc40b76eb71fa8708ca, type: 3}
+  LifeRayHit: {fileID: 3105154768699876682, guid: d729208f73117e640a61de64a734a53a,
+    type: 3}
+  LifeWaveHit: {fileID: 136904, guid: 8fda5dafd090be64e9b5783cdbeb8fc6, type: 3}
+  LifeGatlingHit: {fileID: 104222, guid: ae6f24f0cb6f17d4dbed4fbe01a142f3, type: 3}
+  LightStraight: {fileID: 100002, guid: 684955cf1e1b8064bb374638b20e53cf, type: 3}
+  LightSphere: {fileID: 100000, guid: 0c395858d0318dc41bb0e645e801eeac, type: 3}
+  LightSpread: {fileID: 100008, guid: 55c8c75e4878c3b459dd3f7e4a875a00, type: 3}
+  LightRay: {fileID: 168570, guid: 36346b1c7b5c7ed48aa6244c315c55cf, type: 3}
+  LightWave: {fileID: 8551799107986452481, guid: 271ea88a9f0769e41b6757a1363ea62b,
+    type: 3}
+  LightGatling: {fileID: 169500, guid: 79baaa55e641be0439275b8dae7af740, type: 3}
+  LightRayEffect: {fileID: 3391861480771957413, guid: 79885226978b938489ab94d515f1acc7,
+    type: 3}
+  LightGatlingEffect: {fileID: 108168, guid: 557a7e3cafb257e4186fb8129433a303, type: 3}
+  LightStraightHit: {fileID: 100014, guid: 996e4a22c7736e8478dae94d281f18bf, type: 3}
+  LightSphereHit: {fileID: 3391861480771957413, guid: 79885226978b938489ab94d515f1acc7,
+    type: 3}
+  LightSpreadHit: {fileID: 100014, guid: 996e4a22c7736e8478dae94d281f18bf, type: 3}
+  LightRayHit: {fileID: 3391861480771957413, guid: 79885226978b938489ab94d515f1acc7,
+    type: 3}
+  LightWaveHit: {fileID: 103318, guid: cd0553407ca6bc54f97c4580fec21af8, type: 3}
+  LightGatlingHit: {fileID: 122736, guid: 37777342c5e9ebe4183d67d0adc33e94, type: 3}
+  LightningStraight: {fileID: 114422, guid: cb24f83e2d4ba3341a709b96968ea801, type: 3}
+  LightningSphere: {fileID: 100002, guid: 26c4f5111f4adc74ea88ce3d5388f6e5, type: 3}
+  LightningSpread: {fileID: 194652, guid: 661fccf75b4fb6b46bbb67fe443d907c, type: 3}
+  LightningRay: {fileID: 168570, guid: 4cda6df8f00347b4f9a35657fe9374d3, type: 3}
+  LightningWave: {fileID: 8816149699855788772, guid: 1710e64ef911d744bafa17f5e56ea689,
+    type: 3}
+  LightningGatling: {fileID: 117412, guid: 90b9eccaf45751f4dbef1da136dfb7e2, type: 3}
+  LightningRayEffect: {fileID: 2135222606322628325, guid: b56af3462e8f1ab4bad3e6732af6483e,
+    type: 3}
+  LightningGatlingEffect: {fileID: 193686, guid: 645eae06276896e4887a669cbc08cb22,
+    type: 3}
+  LightningStraightHit: {fileID: 100010, guid: 57f5b3ee00e6f21418a92edfce249494, type: 3}
+  LightningSphereHit: {fileID: 2135222606322628325, guid: b56af3462e8f1ab4bad3e6732af6483e,
+    type: 3}
+  LightningSpreadHit: {fileID: 100010, guid: 57f5b3ee00e6f21418a92edfce249494, type: 3}
+  LightningRayHit: {fileID: 2135222606322628325, guid: b56af3462e8f1ab4bad3e6732af6483e,
+    type: 3}
+  LightningWaveHit: {fileID: 189242, guid: 2fd60fc6cecd16345b3a8205e1b4b00a, type: 3}
+  LightningGatlingHit: {fileID: 105340, guid: 72cf50dded273ff4dbe5f2338b06b066, type: 3}
+  DarknessStraight: {fileID: 100014, guid: 6dd98389f08039f46b54d375e952e155, type: 3}
+  DarknessSphere: {fileID: 100004, guid: 389974917cbdb5f4ab75abc4932cb277, type: 3}
+  DarknessSpread: {fileID: 100000, guid: daae9487101e4b34390b5ba6a948bb66, type: 3}
+  DarknessRay: {fileID: 168570, guid: f8910e850e9dcdc44bb3454608bf7f64, type: 3}
+  DarknessWave: {fileID: 305691602417756203, guid: cc4d5ee9c4fc77b488a53222d12328b0,
+    type: 3}
+  DarknessGatling: {fileID: 158942, guid: 7746042b76677fa4897bba11a2964416, type: 3}
+  DarknessRayEffect: {fileID: 7266480623632621730, guid: 721058f7f1ff4564598ef20940edfc89,
+    type: 3}
+  DarknessGatlingEffect: {fileID: 7266480623632621730, guid: 721058f7f1ff4564598ef20940edfc89,
+    type: 3}
+  DarknessStraightHit: {fileID: 100002, guid: ea55f817bcb56494695eca9f13742b4a, type: 3}
+  DarknessSphereHit: {fileID: 7266480623632621730, guid: 721058f7f1ff4564598ef20940edfc89,
+    type: 3}
+  DarknessSpreadHit: {fileID: 100002, guid: ea55f817bcb56494695eca9f13742b4a, type: 3}
+  DarknessRayHit: {fileID: 7266480623632621730, guid: 721058f7f1ff4564598ef20940edfc89,
+    type: 3}
+  DarknessWaveHit: {fileID: 192808, guid: 65e8f813c7e77dd40999770d67e7e908, type: 3}
+  DarknessGatlingHit: {fileID: 150320, guid: 51e6dfc2ec9381647a7b3c25f6f6f626, type: 3}
+  MetalStraight: {fileID: 100008, guid: 7f36e4b612dfce845a0aad05b6fe7d8d, type: 3}
+  MetalSphere: {fileID: 100004, guid: fd94e570fa7cd8b46b9e2e85bf3beb23, type: 3}
+  MetalSpread: {fileID: 100008, guid: 8a675b5b52196c748abb1ae97c2d0f55, type: 3}
+  MetalRay: {fileID: 168570, guid: 1f7452042ec77d94ea7cece5cc4816fc, type: 3}
+  MetalWave: {fileID: 5553527201595373449, guid: 9ccb5fad17931a14985d31e7d0e7668c,
+    type: 3}
+  MetalGatling: {fileID: 158756, guid: 8396fce600232da4dbbf9a8c440e40ba, type: 3}
+  MetalRayEffect: {fileID: 7733045279645208561, guid: 6cf23a8f866acc942a8e375dbfb1624b,
+    type: 3}
+  MetalGatlingEffect: {fileID: 175624, guid: 4b88f603ede9aae44bf7f959101d5331, type: 3}
+  MetalStraightHit: {fileID: 198366, guid: 9a964087b537346408019caeb1adf4c8, type: 3}
+  MetalSphereHit: {fileID: 7733045279645208561, guid: 6cf23a8f866acc942a8e375dbfb1624b,
+    type: 3}
+  MetalSpreadHit: {fileID: 198366, guid: 9a964087b537346408019caeb1adf4c8, type: 3}
+  MetalRayHit: {fileID: 7733045279645208561, guid: 6cf23a8f866acc942a8e375dbfb1624b,
+    type: 3}
+  MetalWaveHit: {fileID: 159996, guid: bcccb3878450bce4da2cc9e739f38f6b, type: 3}
+  MetalGatlingHit: {fileID: 106454, guid: b05f27b68c4d75946a01f693676decd6, type: 3}
+  FireStraight: {fileID: 100010, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
+  FireSphere: {fileID: 100000, guid: ba2aede8bc059f741961151f4bbdb31f, type: 3}
+  FireSpread: {fileID: 100002, guid: 0e4c3e38b39f63b418ffcf6ff0ea10fc, type: 3}
+  FireRay: {fileID: 168570, guid: 8fe4893f4372fc84fb0c43a1c8860725, type: 3}
+  FireWave: {fileID: 6355049849604423933, guid: d5c46241d4eac8648ae7f9c62e5650b0,
+    type: 3}
+  FireGatling: {fileID: 101350, guid: ea72aca1214b2ab4daca57345d563d07, type: 3}
+  FireRayEffect: {fileID: 387594403099771044, guid: d481dc194dbbb2f41bb56ba7aa3c8ee6,
+    type: 3}
+  FireGatlingEffect: {fileID: 129134, guid: 3ad7829578f473a4a95c2e75c0f5ef6f, type: 3}
+  FireStraightHit: {fileID: 100010, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+  FireSphereHit: {fileID: 387594403099771044, guid: d481dc194dbbb2f41bb56ba7aa3c8ee6,
+    type: 3}
+  FireSpreadHit: {fileID: 100010, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+  FireRayHit: {fileID: 387594403099771044, guid: d481dc194dbbb2f41bb56ba7aa3c8ee6,
+    type: 3}
+  FireWaveHit: {fileID: 171002, guid: 8f3256bee5081894a91dcaf5b8553d6a, type: 3}
+  FireGatlingHit: {fileID: 136414, guid: d59fb75f8c3c18040903bc802beec898, type: 3}
+  IceStraight: {fileID: 100012, guid: 9055f3f4e592d1247b2a06b192f248a7, type: 3}
+  IceSphere: {fileID: 100002, guid: 8a0d1fb7d743833459329b139206cca1, type: 3}
+  IceSpread: {fileID: 100002, guid: 1b1ef023459b0d548bf9b970a9ec0559, type: 3}
+  IceRay: {fileID: 168570, guid: dde30d1733e55b941ada7e3a234bb74c, type: 3}
+  IceWave: {fileID: 6108769070316271571, guid: 7feff4a244b087245be1bdc2196a938f, type: 3}
+  IceGatling: {fileID: 134198, guid: 0b1a09f32ca9ca84b8ffecba7c9410b3, type: 3}
+  IceRayEffect: {fileID: 6005380274324750408, guid: 375494e7ef4210e4794c803acf2bf199,
+    type: 3}
+  IceGatlingEffect: {fileID: 173168, guid: 3f4fcc6fc33bb6c4e9f8c7f9b5322581, type: 3}
+  IceStraightHit: {fileID: 100012, guid: 9825718a75f7cfb428f2377f35d10ed5, type: 3}
+  IceSphereHit: {fileID: 6005380274324750408, guid: 375494e7ef4210e4794c803acf2bf199,
+    type: 3}
+  IceSpreadHit: {fileID: 100012, guid: 9825718a75f7cfb428f2377f35d10ed5, type: 3}
+  IceRayHit: {fileID: 6005380274324750408, guid: 375494e7ef4210e4794c803acf2bf199,
+    type: 3}
+  IceWaveHit: {fileID: 117360, guid: 93dde01820cd8a44bbb998ba21c24e43, type: 3}
+  IceGatlingHit: {fileID: 184234, guid: 847a556973174d84bbe49226f543a92d, type: 3}
+  WindStraight: {fileID: 100014, guid: fcb5c083659d20643a5041a3ffa7b584, type: 3}
+  WindSphere: {fileID: 100000, guid: 07b946e8833a0c84ca9861f4b43f29cf, type: 3}
+  WindSpread: {fileID: 100002, guid: 7f1b241ecefb2374fbb0e4ead91522e6, type: 3}
+  WindRay: {fileID: 168570, guid: d22930b63c5f91049b1539535ad958cd, type: 3}
+  WindWave: {fileID: 8409227965235034639, guid: 2d6672ed9e94237458a40dd89530e456,
+    type: 3}
+  WindGatling: {fileID: 137820, guid: 170db8eff3ea73c41b1a515951f03d70, type: 3}
+  WindRayEffect: {fileID: 51306415303862986, guid: ad77b99c7462c524b9508636da1b2672,
+    type: 3}
+  WindGatlingEffect: {fileID: 166480, guid: 5741fc0e8c2edfd4c8bd5b2b540f65d6, type: 3}
+  WindStraightHit: {fileID: 100008, guid: 890764e2a799d714fa817cc333d17e17, type: 3}
+  WindSphereHit: {fileID: 51306415303862986, guid: ad77b99c7462c524b9508636da1b2672,
+    type: 3}
+  WindSpreadHit: {fileID: 100008, guid: 890764e2a799d714fa817cc333d17e17, type: 3}
+  WindRayHit: {fileID: 51306415303862986, guid: ad77b99c7462c524b9508636da1b2672,
+    type: 3}
+  WindWaveHit: {fileID: 180706, guid: be8befa2be98a62449cda5d294a5014c, type: 3}
+  WindGatlingHit: {fileID: 132198, guid: 57b65f580d44f4b4ca52904e92a6e73a, type: 3}
+  MountainStraight: {fileID: 100008, guid: 7f6c2595e07144d408b980794a40ee34, type: 3}
+  MountainSphere: {fileID: 100002, guid: 37c5928458838164f9cf40703fd86222, type: 3}
+  MountainSpread: {fileID: 100000, guid: d3ff761b4627ac2488d09516e46d6fcf, type: 3}
+  MountainRay: {fileID: 168570, guid: 3827d5026e528924493e36340309f078, type: 3}
+  MountainWave: {fileID: 5964719868977000675, guid: eb730f68489c36e47a7d17992f51b44a,
+    type: 3}
+  MountainGatling: {fileID: 179694, guid: cf0bdea0aea918340a7a202187457d8c, type: 3}
+  MountainRayEffect: {fileID: 6123832745311090913, guid: 863c4bcf200991044be1adad8b7402c5,
+    type: 3}
+  MountainGatlingEffect: {fileID: 119514, guid: 5d0c6afdcfb9c8440840b5b6f53792a5,
+    type: 3}
+  MountainStraightHit: {fileID: 100010, guid: 0779ad1cf28e6924c8bccb279d18eccf, type: 3}
+  MountainSphereHit: {fileID: 6123832745311090913, guid: 863c4bcf200991044be1adad8b7402c5,
+    type: 3}
+  MountainSpreadHit: {fileID: 100010, guid: 0779ad1cf28e6924c8bccb279d18eccf, type: 3}
+  MountainRayHit: {fileID: 6123832745311090913, guid: 863c4bcf200991044be1adad8b7402c5,
+    type: 3}
+  MountainWaveHit: {fileID: 106804, guid: 174a50a11521acd4e98ba5467a278f01, type: 3}
+  MountainGatlingHit: {fileID: 198426, guid: 6bc2e172492149640a2926574ed89f4f, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e0b062cb6546b4ea7b6e2b3ca1296d, type: 3}
+  m_Name: TestPack
+  m_EditorClassIdentifier: 
+  PackName: "\u30C6\u30B9\u30C8\u7528"
+  MagicTypeContents:
+  - {fileID: 11400000, guid: 724a6ee9d4f62a2459f069391de24c67, type: 2}
+  - {fileID: 11400000, guid: 595ebe95c601dee4ea3418d3465f98a6, type: 2}
+  - {fileID: 11400000, guid: e7ebed47d39c7724b9d32ee5f9ea9cfa, type: 2}
+  MagicTypePossibilities:
+  - 1
+  - 2
+  - 4
+  PowerUpContents:
+  - {fileID: 11400000, guid: 5890bdb47a2493b488da2e396c85f920, type: 2}
+  - {fileID: 11400000, guid: 7372278dc0b3b874aa4d250cf5537ddb, type: 2}
+  - {fileID: 11400000, guid: 6aca93666441a3a4793d32bedf3aa7f5, type: 2}
+  - {fileID: 11400000, guid: f9c73c19ded21f4468d812319da479f4, type: 2}
+  PowerUpPossibilities:
+  - 1
+  - 1
+  - 2
+  - 3
+  Prices: 00000000
